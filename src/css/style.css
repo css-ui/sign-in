@@ -1,0 +1,87 @@
+
+/*
+    import css styles
+*/
+@import url(css.ui.min.css);
+
+/*
+    elements
+*/
+body {
+    background-color: #f4f4f4;
+         font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	     padding: 10px 10px 0;
+}
+
+/*
+    form
+*/
+[type="email"],
+[type="password"] {
+    position: relative;
+      margin: 0 0 -1px;
+         top: -1px;
+}
+
+[type="email"] {
+    border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+
+}
+
+[type="password"] {
+    border-top-right-radius: 0;
+     border-top-left-radius: 0;
+}
+
+[type="submit"] {
+    margin-top: 15px;
+}
+
+[type="email"],
+[type="password"],
+[type="submit"] {
+    height: 38px;
+}
+
+input:focus{ z-index: 3; }
+input:first-child { top: -7px; }
+
+/*
+    layout
+*/
+div.container {
+    border-radius: 3px;
+        max-width: 300px;
+	  padding: 25px 25px 0;
+}
+
+div.footer {
+    color: #7f7f7f;
+}
+
+@media only screen and (min-width: 768px) {
+
+    body {
+	padding-top: 70px;
+    }
+
+    div.container {
+	max-width: 380px;
+    }
+
+    [type="email"],
+    [type="password"],
+    [type="submit"] {
+	height: 46px;
+    }
+
+}
+
+@media only screen and (min-width: 1170px) {
+
+    body {
+	padding-top: 150px;
+    }
+
+}
