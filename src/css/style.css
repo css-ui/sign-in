@@ -16,36 +16,36 @@ body {
 /*
     form
 */
-[type="email"],
-[type="password"] {
+.sign.in [type="email"],
+.sign.in [type="password"] {
     position: relative;
       margin: 0 0 -1px;
          top: -1px;
 }
 
-[type="email"] {
+.sign.in [type="email"] {
     border-bottom-right-radius: 0;
      border-bottom-left-radius: 0;
 
 }
 
-[type="password"] {
+.sign.in [type="password"] {
     border-top-right-radius: 0;
      border-top-left-radius: 0;
 }
 
-[type="submit"] {
+.sign.in [type="submit"] {
     margin-top: 15px;
 }
 
-[type="email"],
-[type="password"],
-[type="submit"] {
+.sign.in [type="email"],
+.sign.in [type="password"],
+.sign.in [type="submit"] {
     height: 38px;
 }
 
-input:focus{ z-index: 3; }
-input:first-child { top: -7px; }
+.sign.in input:focus{ z-index: 3; }
+.sign.in input:first-child { top: -7px; }
 
 /*
     layout
@@ -70,9 +70,9 @@ div.footer {
 	max-width: 380px;
     }
 
-    [type="email"],
-    [type="password"],
-    [type="submit"] {
+    .sign.in [type="email"],
+    .sign.in [type="password"],
+    .sign.in [type="submit"] {
 	height: 46px;
     }
 
