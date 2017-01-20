@@ -44,8 +44,8 @@ body {
     height: 38px;
 }
 
-.sign.in input:focus{ z-index: 3; }
-.sign.in input:first-child { top: -7px; }
+.sign.in input:focus{ z-index: 1; }
+.sign.in input:first-child { top: -1px; }
 
 /*
     layout
