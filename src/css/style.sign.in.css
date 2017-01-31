@@ -1,19 +1,5 @@
 
 /*
-    import css styles
-*/
-@import url(css.ui.min.css);
-
-/*
-    elements
-*/
-body {
-    background-color: #f4f4f4;
-         font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
-	     padding: 10px 10px 0;
-}
-
-/*
     form
 */
 .sign.in [type="email"],
@@ -62,7 +48,7 @@ body {
 
 @media only screen and (min-width: 768px) {
 
-    body {
+    html body {
 	padding-top: 70px;
     }
 
@@ -80,7 +66,7 @@ body {
 
 @media only screen and (min-width: 1170px) {
 
-    body {
+    html body {
 	padding-top: 150px;
     }
 
