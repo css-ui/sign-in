@@ -1,5 +1,12 @@
 
 /*
+    elements
+*/
+h2.heading {
+    color: #10a2f1;
+}
+
+/*
     form
 */
 .sign.in [type="email"],
