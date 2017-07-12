@@ -1,9 +1,10 @@
 
 /*
-    elements
+    sign in
 */
-h2.heading {
-    color: #10a2f1;
+img.sign-gravatar {
+    margin-bottom: 20px;
+    border-radius: 60px;
 }
 
 /*
@@ -44,19 +45,32 @@ h2.heading {
     layout
 */
 .container {
-    border-radius: 3px;
-        max-width: 300px;
-	  padding: 25px 25px 0;
+    max-width: 300px;
+      padding: 25px 25px 0;
+}
+
+.container.box {
+    background-color: white;
+       border-radius: 3px;
+}
+
+.container.box h1 {
+    margin-bottom: 8px;
+}
+
+.container.box p {
+    color: #9e9e9e;
 }
 
 .footer {
-    color: #7f7f7f;
+    margin-top: 25px;
+         color: #9e9e9e;
 }
 
 @media only screen and (min-width: 768px) {
 
     html body {
-	padding-top: 70px;
+	padding-top: 50px;
     }
 
     .container {
@@ -74,7 +88,7 @@ h2.heading {
 @media only screen and (min-width: 1170px) {
 
     html body {
-	padding-top: 150px;
+	padding-top: 100px;
     }
 
 }
