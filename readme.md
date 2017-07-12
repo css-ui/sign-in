@@ -1,3 +1,3 @@
 ## Sign in
 
-Simple sign in template.
+Sign in template, based on CSS UI.
