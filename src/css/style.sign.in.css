@@ -32,12 +32,6 @@ img.sign-gravatar {
     margin-top: 15px;
 }
 
-.sign.in [type="email"],
-.sign.in [type="password"],
-.sign.in [type="submit"] {
-    height: 38px;
-}
-
 .sign.in input:focus{ z-index: 1; }
 .sign.in input:first-child { top: -1px; }
 
@@ -80,7 +74,7 @@ img.sign-gravatar {
     .sign.in [type="email"],
     .sign.in [type="password"],
     .sign.in [type="submit"] {
-	height: 46px;
+	height: 44px;
     }
 
 }
