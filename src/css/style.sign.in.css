@@ -1,5 +1,15 @@
 
 /*
+    elements
+*/
+body {
+    background-color: #f4f4f4;
+      padding-bottom: 6rem;
+         font-family: 'Open Sans', sans-serif;
+             padding: 18px;
+}
+
+/*
     sign in
 */
 img.sign-gravatar {
@@ -39,7 +49,7 @@ img.sign-gravatar {
     layout
 */
 .container {
-    max-width: 300px;
+    max-width: 280px;
       padding: 25px 25px 0;
 }
 
@@ -68,7 +78,7 @@ img.sign-gravatar {
     }
 
     .container {
-	max-width: 380px;
+	max-width: 360px;
     }
 
     .sign.in [type="email"],
