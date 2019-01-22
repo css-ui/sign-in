@@ -22,7 +22,7 @@ CSS dependencies.
 <link rel="stylesheet" href="path/to/cssui.css">
 ```
 
-CSS dropdown style.
+CSS sing in style.
 
 ```html
 <link rel="stylesheet" href="path/to/style.sign.in.css">

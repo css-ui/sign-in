@@ -1,0 +1,24 @@
+{
+	"name": "css-ui-sign-in",
+	"version": "1.1.0",
+	"description": "Sign in template.",
+	"main": "css/style.sign.in.css",
+	"repository": {
+		"type": "git",
+		"url": "git+https://accgit@github.com/css-ui/sign-in.git"
+	},
+	"keywords": [
+		"sing-in",
+		"login",
+		"template"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/css-ui/sign-in/issues"
+	},
+	"dependencies": {
+		"css-ui-simple": "^2.5.1",
+		"open-sans-fontface": "^1.4.0"
+	},
+	"homepage": "https://github.com/css-ui/sign-in#readme"
+}
