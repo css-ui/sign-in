@@ -71,3 +71,5 @@ Sign in html.
 	<p class="align center">&copy; CSS UI</p>
 </div>
 ```
+
+Enjoy the sign in template.
