@@ -1,4 +1,4 @@
-## Sign in
+## CSS UI - Sign in
 
 Sign in template.
 
@@ -22,20 +22,16 @@ CSS dependencies.
 <link rel="stylesheet" href="path/to/cssui.css">
 ```
 
-CSS sing in style.
+CSS sign in.
 
 ```html
 <link rel="stylesheet" href="path/to/style.sign.in.css">
 ```
 
-Set font.
+Use Open Sans fotns.
 
-```html
-<style>
-	body {
-		font-family: 'Open Sans', sans-serif;
-	}
-</style>
+```css
+font-family: 'Open Sans', sans-serif;
 ```
 
 Sign in html.
@@ -72,4 +68,4 @@ Sign in html.
 </div>
 ```
 
-Enjoy the sign in template.
+Enjoy sign in template.
