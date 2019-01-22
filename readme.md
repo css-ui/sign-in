@@ -57,8 +57,8 @@ Sign in html.
 	<!-- sign in form -->
 	<div class="sign in">
 		<form class="group">
-			<input type="email" placeholder="E-mail" required class="top full width">
-			<input type="password" placeholder="Password" required class="bottom full width">
+			<input type="email" placeholder="E-mail" required class="unite first full width">
+			<input type="password" placeholder="Password" required class="unite last full width">
 			<div class="align right">
 				<input type="submit" value="Sign in" class="button primary">
 			</div>
